@@ -13,7 +13,7 @@ import { FaLinkedin } from "react-icons/fa";
 function App() {
   return (
     <div className="bg-gradient-to-tr from-purple-100 via-pink-100 to-yellow-100 text-gray-800 min-h-screen font-sans">
-      <header className="text-center py-16 bg-gradient-to-br from-purple-500 via-pink-300 to-yellow-300 text-white rounded-b-3xl shadow-xl">
+      <header className="text-center py-16 bg-gradient-to-br from-purple-100 via-pink-100 to-yellow-100 text-black rounded-b-3xl shadow-xl">
         <motion.h1
           className="text-5xl font-extrabold tracking-tight"
           initial={{ scale: 0 }}
@@ -22,7 +22,7 @@ function App() {
         >
           Divy's Creative Portfolio
         </motion.h1>
-        <p className="text-lg mt-3 text-white/90 italic">
+        <p className="text-lg mt-3 text-black/90 italic">
           Crafting pixels & building experiences
         </p>
       </header>
